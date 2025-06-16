@@ -1,0 +1,57 @@
+:root {
+  --angle: 0deg;
+}
+
+.lineAnime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  padding: 1rem;
+  align-items: stretch; /* ensure equal height */
+}
+
+.glow-wrapper {
+  position: relative;
+  border-radius: 16px;
+  padding: 1px;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  transition: transform 0.2s ease-in ;
+}
+.glow-wrapper:hover{
+  transform: scale(1.05);
+}
+
+.glow-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  filter: blur(2rem);
+  opacity: 0.4;
+  z-index: -1;
+  border-radius: 16px;
+}
+
+.card-border {
+  background-color: black;
+  border-radius: 12px;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0.7rem;
+}
+
+.card-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
