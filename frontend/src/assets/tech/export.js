@@ -16,8 +16,8 @@ import postman from "./postman.png";
 import socket from "./socket.jpeg";
 import gitlab from "./gitlab.webp";
 import kafka from "./kafka.png";
-import linux from "./linux.webp";
-import python from "./python.webp";
+import linux from "./linux.png";
+import python from "./python.png";
 import redis from "./redis.png";
 
 export {

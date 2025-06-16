@@ -228,12 +228,85 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "prisma",
-    icon: prisma,
+    name: "gitlab",
+    icon: gitlab,
+  },
+
+
+];
+
+const marqueStacks = [
+    {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
   {
     name: "gitlab",
     icon: gitlab,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "socket.io",
+    icon: socket,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "linux",
+    icon: linux,
+  },
+  {
+    name: "python",
+    icon: python,
   },
   {
     name: "kafka",
@@ -243,32 +316,11 @@ const technologies = [
     name: "redis",
     icon: redis,
   },
-  // {
-  //   name: "firebase",
-  //   icon: firebase,
-  // },
-  // {
-  //   name: "postman",
-  //   icon: postman,
-  // },
-  // {
-  //   name: "socket.io",
-  //   icon: socket,
-  // },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "linux",
-  //   icon: linux,
-  // },
-  // {
-  //   name: "python",
-  //   icon: python,
-  // },
-];
-
+  {
+    name: "prisma",
+    icon: prisma,
+  },
+]
 
 const expCards = [
   {
@@ -386,6 +438,15 @@ const items = [
     link: "https://thelearnovahubs3--3l1ypd5u3v.expo.app/",
     github: "https://github.com/akashguptacodes/educationapp"
   },
+  {
+    id: 4,
+    img: "/images/portfolio.png",
+    title: "3D Portfolio - Interactive Developer Showcase",
+    desc: "• Built an interactive 3D portfolio website using React Three Fiber and Drei to provide an immersive experience. Showcased projects, skills, and contact details in a dynamic 3D environment. Implemented smooth animations, camera transitions, and responsive design to enhance engagement across devices.",
+    link: "https://akportfolio2.vercel.app/",
+    github: "https://github.com/akashguptacodes/akportfolio2"
+  }
+
 
 ];
 
@@ -426,4 +487,5 @@ export {
   technologies,
   techStackImgs,
   navLinks,
+  marqueStacks
 };

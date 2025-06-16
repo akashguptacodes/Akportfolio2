@@ -38,7 +38,7 @@ const Hero = () => {
                                         {
                                             names.map((name) => (
                                                 <span key={name.text} className='flex items-center md:gap-3 gap-1 pb-2'>
-                                                    <span><i>{name.text}</i></span>
+                                                    <span className='text-blue-300'>{name.text}</span>
                                                 </span>
                                             ))
                                         }
@@ -57,7 +57,7 @@ const Hero = () => {
                                                         alt={word.text}
                                                         className='xl-size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50'
                                                     />
-                                                    <span>{word.text}</span>
+                                                    <span className='text-blue-300'>{word.text}</span>
                                                 </span>
                                             ))
                                         }
