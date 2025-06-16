@@ -8,7 +8,9 @@ const app = express();
 
 app.use(cors({
   origin: 'https://akportfolio2.vercel.app',
-  // credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type'],
+  credentials: true
 }));
 
 // app.options('*', cors());
