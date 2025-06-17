@@ -5,6 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import Particles from './Particles';
 import react from '../../assets/tech/reactjs.png'
 
+
 const ReactBall = () => {
   const [decal] = useTexture([react]);
 

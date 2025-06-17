@@ -4,7 +4,7 @@ import { technologies } from '../constants/utils'
 
 const TechStack = () => {
     return (
-        <div id='skills' className='flex-center section-padding mt-36'>
+        <div id='skills' className='flex-center section-padding pt-20'>
             <div className='w-full h-full md:px-10 px-5'>
                 <TitleHeader
                     title='My Preffered Tech Stack'

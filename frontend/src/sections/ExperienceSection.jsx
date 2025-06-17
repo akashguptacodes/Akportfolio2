@@ -53,7 +53,7 @@ const ExperienceSection = () => {
         })
     }, [])
     return (
-        <section id='experience' className='w-full md:mt-40 mt-20 section-padding xl:px-0'>
+        <section id='experience' className='w-full md:pt-20 mt-20 section-padding xl:px-0'>
             <div className='w-full h-full md:px-20 px-5'>
                 <TitleHeader title="Proffesional Work Experience" sub="💻 My Carrer Overview" />
                 <div className='mt-32 relative'>
@@ -65,7 +65,7 @@ const ExperienceSection = () => {
                                         <GlowCard card={card} index={index}>
                                             <div className='flex items-center gap-5'>
                                                 <img src={card.imgPath} alt={card.title} className='h-16' />
-                                                <h1 className='text-5xl font-bold'>{card.company}</h1>
+                                                <h1 className='md:text-4xl text-2xl font-bold'>{card.company}</h1>
                                             </div>
                                         </GlowCard>
                                     </div>
@@ -77,7 +77,7 @@ const ExperienceSection = () => {
                                             </div>
                                             <div className='expText flex xl:gap-20 md:gap-10 gap-5 relative z-20'>
                                                 <div className='timeline-logo'>
-                                                    <img src={card.logoPath} alt='logo' className='h-16' />
+                                                    <img src={card.logoPath} alt='logo' className='md:h-16 h-10' />
                                                 </div>
                                                 <div>
                                                     <h1 className='font-semibold text-3xl'>{card.title}</h1>

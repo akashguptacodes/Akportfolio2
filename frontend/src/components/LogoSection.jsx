@@ -4,7 +4,7 @@ import { marqueStacks } from '../constants/utils'
 
 const LogoIcon=({stack})=>{
     return (
-        <div className='flex flex-col flex-center marquee-item'>
+        <div className='flex flex-col flex-center marquee-item hover:scale-125 transition-transform duration-300'>
             <img src={stack.icon} alt={stack.name} className='rounded-3xl' />
             <p className='text-black-200'>{stack.name}</p>
         </div>
@@ -15,7 +15,7 @@ const LogoIcon=({stack})=>{
 
 const LogoSection = () => {
   return (
-    <div className='md:my-20 my-10 relative'>
+    <div className='md:my-20 my-10 relative z-10'>
         <div className='gradient-edge' />
         <div className='gradient-edge' />
         <div className='marquee h-52'>

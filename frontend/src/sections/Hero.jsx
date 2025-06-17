@@ -77,7 +77,6 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
-            <div id='work' className='h-28'></div>
         </section>
 
     )

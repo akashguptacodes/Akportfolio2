@@ -32,7 +32,7 @@ const AppShowcase = () => {
   }
 
   return (
-    <div className="w-full padding-x-lg" id='work'>
+    <div id='work' className="w-full padding-x-lg pt-20">
       <h1 className="text-center text-5xl font-bold mb-6 w-full">Projects:-</h1>
       <motion.div
         variants={fadeIn('left', 0.2)}
