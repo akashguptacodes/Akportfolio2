@@ -30,7 +30,7 @@
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  background-image: conic-gradient(from var(--angle), #745a5a, #292c2b, #2e4b74, #eee9ec, #594545);
   filter: blur(2rem);
   opacity: 0.4;
   z-index: -1;

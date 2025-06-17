@@ -60,21 +60,19 @@ const AppShowcase = () => {
                     <p className="text-sm opacity-80 mb-4">{item.desc}</p>
                   </div>
                   <div className="flex gap-4 flex-wrap mt-auto">
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block px-4 py-2 text-sm rounded bg-white text-black font-medium hover:bg-gray-200 transition"
-                    >
-                      View Project
+                    <a href={item.link} target="_blank"
+                      rel="noopener noreferrer" className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                      <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                      <span className="relative px-3 py-1.5 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+                        <span className="relative text-white">View project</span>
+                      </span>
                     </a>
-                    <a
-                      href={item.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block px-4 py-2 text-sm rounded bg-white text-black font-medium hover:bg-gray-200 transition"
-                    >
-                      Github
+                    <a href={item.github} target="_blank"
+                      rel="noopener noreferrer" className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                      <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                      <span className="relative px-3 py-1.5 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+                        <span className="relative text-white">Github</span>
+                      </span>
                     </a>
                   </div>
                 </div>
