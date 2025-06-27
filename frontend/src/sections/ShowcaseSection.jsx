@@ -51,7 +51,7 @@ const AppShowcase = () => {
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-52 object-cover rounded"
+                  className="w-full h-52 object-fill rounded"
                   loading="lazy"
                 />
                 <div className="card-content">
